@@ -1,4 +1,4 @@
-%define version 0.2
+%define version 0.2.1
 
 Name:           haxxeptance
 Version:        %{version}
@@ -7,7 +7,7 @@ Summary:        URL scheme handler to open hxxp: and hxxps: URLs
 
 License:        GPL
 URL:            https://github.com/dpoon/haxxeptance
-Source0:        haxxeptance-%{VERSION}.tar.bz2
+Source0:        https://github.com/dpoon/haxxeptance/archive/v%{VERSION}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  make
