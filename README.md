@@ -10,11 +10,11 @@ Haxxeptance is available for macOS (10.9 or later) and Linux.
 
 ## How does the macOS implementation work?
 
-Copy the `Haxxeptance` application to your `/Applications/Utilities` folder (or
-anywhere on your Mac), and double-click to run it.  It *appears* to do nothing
-(the app exits immediately)… but once you've run it, you can click on links
-such as [hxxps://google.com/](hxxps://google.com/), and those links will open
-in your default browser as if you had clicked on
+Copy the `Haxxeptance` application to your Mac (the `/Applications/Utilities`
+folder or your `~/Applications` folder), and double-click to run it.  It
+*appears* to do nothing (the app exits immediately)… but once you've run it,
+you can click on links such as [hxxps://google.com/](hxxps://google.com/), and
+those links will open in your default browser as if you had clicked on
 [https://google.com/](https://google.com/)!
 
 Haxxeptance declares itself as a handler for the `hxxp:` and `hxxps:` URL

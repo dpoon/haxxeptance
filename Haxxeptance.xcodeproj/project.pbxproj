@@ -6,6 +6,21 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0D5E779F245E7A0D00E3C699 /* Haxxeptance.dmg */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0D5E77A2245E7A0D00E3C699 /* Build configuration list for PBXAggregateTarget "Haxxeptance.dmg" */;
+			buildPhases = (
+				0D5E77AA245E7BD100E3C699 /* ShellScript */,
+			);
+			dependencies = (
+				0D5E77A4245E7A7800E3C699 /* PBXTargetDependency */,
+			);
+			name = Haxxeptance.dmg;
+			productName = Haxxeptance.dmg;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		0D57EF5D245C14AD00FDB7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57EF5C245C14AD00FDB7EB /* AppDelegate.swift */; };
 		0D57EF6E245C14AE00FDB7EB /* HaxxeptanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D57EF6D245C14AE00FDB7EB /* HaxxeptanceTests.swift */; };
@@ -21,9 +36,17 @@
 			remoteGlobalIDString = 0D57EF58245C14AD00FDB7EB;
 			remoteInfo = Haxxeptance;
 		};
+		0D5E77A3245E7A7800E3C699 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D57EF51245C14AD00FDB7EB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D57EF58245C14AD00FDB7EB;
+			remoteInfo = Haxxeptance;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D362EB9245E9A8400EC052C /* Haxxeptance.dmg */ = {isa = PBXFileReference; lastKnownFileType = file; path = Haxxeptance.dmg; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D57EF59245C14AD00FDB7EB /* Haxxeptance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Haxxeptance.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0D57EF5C245C14AD00FDB7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0D57EF63245C14AD00FDB7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -32,6 +55,7 @@
 		0D57EF6D245C14AE00FDB7EB /* HaxxeptanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HaxxeptanceTests.swift; sourceTree = "<group>"; };
 		0D57EF6F245C14AE00FDB7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D57EF7A245C1B0100FDB7EB /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D5E77A6245E7B1C00E3C699 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		0D748FA7245D2ECE006E0381 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -66,6 +90,7 @@
 		0D57EF50245C14AD00FDB7EB = {
 			isa = PBXGroup;
 			children = (
+				0D5E77A6245E7B1C00E3C699 /* LICENSE */,
 				0D1F9AA4245C3DBF00B61655 /* Xcode */,
 			);
 			sourceTree = "<group>";
@@ -74,6 +99,7 @@
 			isa = PBXGroup;
 			children = (
 				0D57EF59245C14AD00FDB7EB /* Haxxeptance.app */,
+				0D362EB9245E9A8400EC052C /* Haxxeptance.dmg */,
 				0D57EF69245C14AD00FDB7EB /* HaxxeptanceTests.xctest */,
 			);
 			name = Products;
@@ -156,6 +182,9 @@
 						CreatedOnToolsVersion = 11.4.1;
 						TestTargetID = 0D57EF58245C14AD00FDB7EB;
 					};
+					0D5E779F245E7A0D00E3C699 = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
 				};
 			};
 			buildConfigurationList = 0D57EF54245C14AD00FDB7EB /* Build configuration list for PBXProject "Haxxeptance" */;
@@ -173,6 +202,7 @@
 			targets = (
 				0D57EF58245C14AD00FDB7EB /* Haxxeptance */,
 				0D57EF68245C14AD00FDB7EB /* HaxxeptanceTests */,
+				0D5E779F245E7A0D00E3C699 /* Haxxeptance.dmg */,
 			);
 		};
 /* End PBXProject section */
@@ -194,6 +224,28 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D5E77AA245E7BD100E3C699 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/LICENSE",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(TARGET_BUILD_DIR)/Haxxeptance.dmg",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "defaults read \"$TARGET_BUILD_DIR/Haxxeptance.app/Contents/Info\" CFBundleShortVersionString | (\n    read -r CFBUNDLE_SHORT_VERSION &&\n    STG=\"$TARGET_TEMP_DIR/Haxxeptance $CFBUNDLE_SHORT_VERSION\" &&\n    mkdir -p \"$STG\" &&\n    $CP -a \"$TARGET_BUILD_DIR/Haxxeptance.app\" \"$STG\" &&\n    $CP -a LICENSE \"$STG\" &&\n    rm -f \"$TARGET_BUILD_DIR/$TARGET_NAME\" &&\n    hdiutil create \"$TARGET_BUILD_DIR/$TARGET_NAME\" -srcfolder \"$STG\"\n)\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0D57EF55245C14AD00FDB7EB /* Sources */ = {
@@ -220,6 +272,11 @@
 			isa = PBXTargetDependency;
 			target = 0D57EF58245C14AD00FDB7EB /* Haxxeptance */;
 			targetProxy = 0D57EF6A245C14AD00FDB7EB /* PBXContainerItemProxy */;
+		};
+		0D5E77A4245E7A7800E3C699 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D57EF58245C14AD00FDB7EB /* Haxxeptance */;
+			targetProxy = 0D5E77A3245E7A7800E3C699 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -274,13 +331,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -328,12 +386,13 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALID_ARCHS = x86_64;
 			};
 			name = Release;
 		};
@@ -342,8 +401,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Xcode/Haxxeptance/Haxxeptance.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Xcode/Haxxeptance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -353,6 +414,7 @@
 				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dwpoon.Haxxeptance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
 			};
@@ -363,8 +425,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = Xcode/Haxxeptance/Haxxeptance.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Xcode/Haxxeptance/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -374,6 +438,7 @@
 				MARKETING_VERSION = 0.2.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dwpoon.Haxxeptance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Osize";
 				SWIFT_VERSION = 5.0;
 				VALID_ARCHS = x86_64;
@@ -387,7 +452,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = HaxxeptanceTests/Info.plist;
+				INFOPLIST_FILE = Xcode/HaxxeptanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -398,6 +463,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haxxeptance.app/Contents/MacOS/Haxxeptance";
+				VALID_ARCHS = x86_64;
 			};
 			name = Debug;
 		};
@@ -408,7 +474,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = HaxxeptanceTests/Info.plist;
+				INFOPLIST_FILE = Xcode/HaxxeptanceTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -419,6 +485,23 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Haxxeptance.app/Contents/MacOS/Haxxeptance";
+				VALID_ARCHS = x86_64;
+			};
+			name = Release;
+		};
+		0D5E77A0245E7A0D00E3C699 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0D5E77A1245E7A0D00E3C699 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -448,6 +531,15 @@
 			buildConfigurations = (
 				0D57EF76245C14AE00FDB7EB /* Debug */,
 				0D57EF77245C14AE00FDB7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D5E77A2245E7A0D00E3C699 /* Build configuration list for PBXAggregateTarget "Haxxeptance.dmg" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D5E77A0245E7A0D00E3C699 /* Debug */,
+				0D5E77A1245E7A0D00E3C699 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
