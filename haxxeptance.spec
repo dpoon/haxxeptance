@@ -7,7 +7,7 @@ Summary:        URL scheme handler to open hxxp: and hxxps: URLs
 
 License:        GPL
 URL:            https://github.com/dpoon/haxxeptance
-Source0:        https://github.com/dpoon/haxxeptance/archive/v%{VERSION}.tar.gz
+Source0:        https://github.com/dpoon/haxxeptance/archive/v%{version}.tar.gz
 
 BuildArch:      noarch
 BuildRequires:  make
