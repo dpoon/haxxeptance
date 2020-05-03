@@ -1,0 +1,47 @@
+.\"                                      Hey, EMACS: -*- nroff -*-
+.\" (C) Copyright 2020 Dara Poon <github@dwpoon.com>,
+.\"
+.\" First parameter, NAME, should be all caps
+.\" Second parameter, SECTION, should be 1-8, maybe w/ subsection
+.\" other parameters are allowed: see man(7), man(1)
+.TH HAXXEPTANCE 1 "May  2 2020"
+.\" Please adjust this date whenever revising the manpage.
+.\"
+.\" Some roff macros, for reference:
+.\" .nh        disable hyphenation
+.\" .hy        enable hyphenation
+.\" .ad l      left justify
+.\" .ad b      justify to both left and right margins
+.\" .nf        disable filling
+.\" .fi        enable filling
+.\" .br        insert line break
+.\" .sp <n>    insert n+1 empty lines
+.\" for manpage-specific macros, see man(7)
+.SH NAME
+haxxeptance \- URL scheme handler to open hxxp: and hxxps: URLs
+.SH SYNOPSIS
+.SY haxxeptance
+.B "hxxp://example.com"
+.YS
+.br
+.SY haxxeptance
+.B "hxxps://example.com"
+.YS
+.SH DESCRIPTION
+.B hxxp-open
+accepts a single URL that stats with
+.B hxxp:
+or
+.B hxxps:
+URLs and opens them in the default web browser as
+.B http:
+or
+.B
+https:
+URLs.
+.PP
+.SH SEE ALSO
+.BR xdg-open (1),
+.UR http://www.freedesktop.org/wiki/Specifications/mime-apps-spec/
+MIME applications associations specification
+.UE .

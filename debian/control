@@ -1,0 +1,16 @@
+Source: haxxeptance
+Section: contrib/utils
+Priority: optional
+Maintainer: Dara Poon <github@dwpoon.com>
+Standards-Version: 4.4.1
+Homepage: https://github.com/dpoon/haxxeptance
+Vcs-Browser: https://github.com/dpoon/haxxeptance
+Vcs-Git: https://github.com/dpoon/haxxeptance.git
+
+Package: haxxeptance
+Architecture: all
+Depends: xdg-utils, ${shlibs:Depends}, ${misc:Depends}
+Enhances: xdg-utils
+Description: URL scheme handler to open hxxp: and hxxps: URLs
+ Haxxeptance is a URL scheme handler that accepts hxxp: and hxxps: URLs and
+ opens them in the default web browser as http: and https: URLs.

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Haxxeptance
+GenericName=HXXP Scheme Handler
+NoDisplay=true
+Exec=hxxp-open %u
+StartupNotify=false
+MimeType=x-scheme-handler/hxxp;x-scheme-handler/hxxps;

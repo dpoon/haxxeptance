@@ -1,0 +1,9 @@
+#!/bin/bash
+
+shopt -s nocasematch
+
+case "$1" in hxxp:*|hxxps:*) exec /usr/bin/xdg-open "http${1:4}" ; ;;
+esac
+
+echo "$0: Unsupported URL: $1" >&2
+exit 1
